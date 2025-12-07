@@ -1,0 +1,68 @@
+:root {
+  --color-background: oklch(0.9842 0.0034 247.8575);
+  --color-foreground: oklch(0.2795 0.0368 260.0310);
+  --color-card: oklch(1.0000 0 0);
+  --color-card-foreground: oklch(0.2795 0.0368 260.0310);
+  --color-popover: oklch(1.0000 0 0);
+  --color-popover-foreground: oklch(0.2795 0.0368 260.0310);
+  --color-primary: oklch(0.5854 0.2041 277.1173);
+  --color-primary-foreground: oklch(1.0000 0 0);
+  --color-secondary: oklch(0.9276 0.0058 264.5313);
+  --color-secondary-foreground: oklch(0.3729 0.0306 259.7328);
+  --color-muted: oklch(0.9670 0.0029 264.5419);
+  --color-muted-foreground: oklch(0.5510 0.0234 264.3637);
+  --color-accent: oklch(0.9299 0.0334 272.7879);
+  --color-accent-foreground: oklch(0.3729 0.0306 259.7328);
+  --color-destructive: oklch(0.6368 0.2078 25.3313);
+  --color-destructive-foreground: oklch(1.0000 0 0);
+  --color-border: oklch(0.8717 0.0093 258.3382);
+  --color-input: oklch(0.8717 0.0093 258.3382);
+  --color-ring: oklch(0.5854 0.2041 277.1173);
+  --color-chart-1: oklch(0.5854 0.2041 277.1173);
+  --color-chart-2: oklch(0.5106 0.2301 276.9656);
+  --color-chart-3: oklch(0.4568 0.2146 277.0229);
+  --color-chart-4: oklch(0.3984 0.1773 277.3662);
+  --color-chart-5: oklch(0.3588 0.1354 278.6973);
+  --color-sidebar: oklch(0.9670 0.0029 264.5419);
+  --color-sidebar-foreground: oklch(0.2795 0.0368 260.0310);
+  --color-sidebar-primary: oklch(0.5854 0.2041 277.1173);
+  --color-sidebar-primary-foreground: oklch(1.0000 0 0);
+  --color-sidebar-accent: oklch(0.9299 0.0334 272.7879);
+  --color-sidebar-accent-foreground: oklch(0.3729 0.0306 259.7328);
+  --color-sidebar-border: oklch(0.8717 0.0093 258.3382);
+  --color-sidebar-ring: oklch(0.5854 0.2041 277.1173);
+  --font-sans: Inter, sans-serif;
+  --font-serif: Merriweather, serif;
+  --font-mono: JetBrains Mono, monospace;
+  --radius: 0.5rem;
+  --shadow-x: 0px;
+  --shadow-y: 4px;
+  --shadow-blur: 8px;
+  --shadow-spread: -1px;
+  --shadow-opacity: 0.1;
+  --shadow-color: hsl(0 0% 0%);
+  --shadow-2xs: 0px 4px 8px -1px hsl(0 0% 0% / 0.05);
+  --shadow-xs: 0px 4px 8px -1px hsl(0 0% 0% / 0.05);
+  --shadow-sm: 0px 4px 8px -1px hsl(0 0% 0% / 0.10), 0px 1px 2px -2px hsl(0 0% 0% / 0.10);
+  --shadow: 0px 4px 8px -1px hsl(0 0% 0% / 0.10), 0px 1px 2px -2px hsl(0 0% 0% / 0.10);
+  --shadow-md: 0px 4px 8px -1px hsl(0 0% 0% / 0.10), 0px 2px 4px -2px hsl(0 0% 0% / 0.10);
+  --shadow-lg: 0px 4px 8px -1px hsl(0 0% 0% / 0.10), 0px 4px 6px -2px hsl(0 0% 0% / 0.10);
+  --shadow-xl: 0px 4px 8px -1px hsl(0 0% 0% / 0.10), 0px 8px 10px -2px hsl(0 0% 0% / 0.10);
+  --shadow-2xl: 0px 4px 8px -1px hsl(0 0% 0% / 0.25);
+  --tracking-normal: 0em;
+  --spacing: 0.25rem;
+
+  /* Radius aliases */
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  /* Tree visualization colors */
+  --color-visiting: oklch(0.8471 0.1990 95.8); /* 黄色 - 操作中（選択中）ノード */
+  --color-candidate: oklch(0.7 0.15 50); /* オレンジ色 - 再配置中ノード（回転対象など） */
+  --color-comparing: oklch(0.6 0.2 250); /* 青色 - 挿入ノード */
+  --color-committed: oklch(0.6 0.2 25); /* 赤色 - 削除ノード */
+  --color-idle: oklch(0.7510 0.0234 264.3637); /* グレー - 無関係ノード */
+  --color-default: oklch(0.5854 0.2041 277.1173); /* 青 - デフォルト */
+}

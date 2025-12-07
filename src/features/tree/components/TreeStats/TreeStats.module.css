@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background-color: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sectionTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-foreground);
+  margin: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.statLabel {
+  font-size: 0.875rem;
+  color: var(--color-muted-foreground);
+}
+
+.statValue {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.complexityGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.complexity {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.complexityLabel {
+  font-size: 0.875rem;
+  color: var(--color-muted-foreground);
+}
+
+.complexityValue {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-foreground);
+  font-family: var(--font-mono);
+}
+
+.description {
+  margin: 0;
+  padding: 0.75rem;
+  background-color: var(--color-accent);
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+  color: var(--color-accent-foreground);
+}
